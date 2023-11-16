@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*HEADER*/
+
+
+.menuNav a {
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.menuNav a:hover {
+    background-color:darkslategrey;
+    color: yellowgreen;
+}
+
+.imagenesCarrusel {
+
+    display: block;
+    height: 50%;
+    width: 100%;
+    object-fit: contain;
+   
+}
+
+.logo {
+    width: 200px;
+
+}
+
+.encabezado {
+    background-color: black;
+}
+
+
+h1{
+
+color: yellowgreen;
+font-weight: bold;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 40px;
+
+
+}
+
+h3 {
+color: white;
+margin-top: 30px;
+font-size: 20px;
+}
+
+
+
+main h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.blanco {
+    color: white; 
+    
+}
+
+/*SECTION*/
+
+.contenedorInicio {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.contenedorInicio img {
+
+    width: 100%;
+    height: 90%;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.imgPulidoInicio {
+
+    margin-right: auto;
+    border-radius: 5px;
+
+}
+
+.imgDetailInicio {
+
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+/*VIDEO RESPONSIVE*/
+
+.video-container {
+
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 30px;
+    height: 0px;
+
+}
+
+.video-container iframe {
+
+    /*ejemplo de la caja flotante,para que se adapte a todas las pantallas*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: 90%;
+}
+
+/*FOOTER*/
+
+.footerRedes{
+
+    display: flex;
+    justify-content:center;
+    margin-top: 80px;
+    
+}
+
+.logoRedes {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logoRedes a {
+    list-style: none;
+    
+}
+ /*Aplicado en la pagina Polarizados*/
+
+
+.imagenesCardPolarizado {
+    height: 75%;
+}
+
+.cardBody {
+    border: 1px solid black;
+} 
+
+/*formulario de contacto*/ 
+
+form {
+
+    margin: 50px;
+    width: 300px;
+    padding: 10px;
+    justify-content: center;
+    
+    
+}
+
+iframe {
+    display:block;
+    margin: auto;
+    margin-top: 70px;
+}
+
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: white solid 3px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+.alinearTexto {
+    text-align:center;
+    margin-top: 10px;
+}
+
+
+.contactoMapa {
+
+    display: inline-flex;
+}
+
+/**** Box Modeling****/
+
+.contenedorBotones {
+
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: yellowgreen;
+    border: 1px solid white;
+    margin:auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.contenedorBotones p {
+
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin: 5px 5px;
+}
+
+ 
+
+
+
