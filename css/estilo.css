@@ -28,6 +28,14 @@ body {
     color: yellowgreen;
 }
 
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 .imagenesCarrusel {
 
     display: block;
