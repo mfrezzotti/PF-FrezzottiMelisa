@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500');
 
+/* RESETEO INICIAL */
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +21,7 @@ body {
     margin: 10px;
     font-size: 20px;
     font-weight: bold;
+    transition: all 0.5s;
     
 }
 
@@ -37,12 +39,11 @@ body {
 }
 
 .imagenesCarrusel {
-
+    
     display: block;
     height: 50%;
     width: 100%;
     object-fit: contain;
-   
 }
 
 .logo {
