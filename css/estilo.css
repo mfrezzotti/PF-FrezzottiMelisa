@@ -47,7 +47,6 @@ body {
 
 .logo {
     width: 200px;
-
 }
 
 .encabezado {
@@ -221,7 +220,7 @@ footer h3 {
     }
 }
 
-/*formulario de contacto*/ 
+/*CONTACTO*/ 
 
 .contenedorContacto {
     display: grid;
@@ -272,7 +271,7 @@ input, textarea {
     justify-self: center;
 }
 
-/* Contacto RESPONSIVE */
+/* CONTACTO RESPONSIVE */
 
 @media (max-width: 1023px) {
     .contenedorContacto {
@@ -289,32 +288,13 @@ input, textarea {
         
     }
 
-
 }
+
 @media (max-width: 768px) {
     .contenedorContacto {
         grid-template-columns: 1fr;
     }
 }
-
-
-
-
-
-
-
-
-
-/* iframe {
-    display:block;
-    margin: auto;
-    margin-top: 10px;
-} */
-/* .alinearTexto {
-    text-align:center;
-    margin-top: 10px;
-} */
-
 
 /**** Box Modeling****/
 
@@ -322,7 +302,7 @@ input, textarea {
 
     display: inline-block;
     box-sizing: border-box;
-    background-color: yellowgreen;
+    background: radial-gradient(#adfe1f, #5be35b);
     border: 1px solid white;
     margin:auto;
     border-radius: 5px;
