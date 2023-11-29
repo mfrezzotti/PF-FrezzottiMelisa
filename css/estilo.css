@@ -247,7 +247,7 @@ input, textarea {
 
 .botonFormularioContacto {
     border: none;
-    background-color: yellowgreen;
+    background: linear-gradient(to left, #adfe1f, #5be35b);
     font-weight: bold;
     cursor: pointer;
 }
@@ -303,7 +303,7 @@ input, textarea {
 
     display: inline-block;
     box-sizing: border-box;
-    background: radial-gradient(#adfe1f, #5be35b);
+    background: linear-gradient(to left, #adfe1f, #5be35b);
     border: 1px solid white;
     margin:auto;
     border-radius: 5px;
