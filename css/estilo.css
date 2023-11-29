@@ -17,6 +17,7 @@ body {
 
 
 .menuNav a {
+    text-decoration: none;
     list-style: none;
     margin: 10px;
     font-size: 20px;
